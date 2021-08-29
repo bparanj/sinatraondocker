@@ -18,7 +18,13 @@ docker build --tag hi .
 docker run -p 8095:4567 hi
 ```
 
-You can add these commands to build.sh and run.sh. Run chmod +x build.sh and run:
+You can add these commands to build.sh and run.sh. Run 
+
+```
+chmod +x build.sh
+```
+
+and run:
 
 ```
 ./build.sh
