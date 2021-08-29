@@ -40,6 +40,10 @@ docker-compose up
 
 to see the new output at URL: http://0.0.0.0:8090/
 
+# Issues
+
+1. The gems are installed everytime we build the image, even when the Gemfile did not change.
+
 # References
 
 1. https://www.codewithjason.com/dockerize-sinatra-application/
