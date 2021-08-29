@@ -30,6 +30,16 @@ and run:
 ./build.sh
 ```
 
+# Using Docker Compose
+
+The docker-compose.yml configures the port mapping from container to the host and specifies the Dockerfile to use for the build. Run:
+
+```
+docker-compose up
+```
+
+to see the new output at URL: http://0.0.0.0:8090/
+
 # References
 
 1. https://www.codewithjason.com/dockerize-sinatra-application/
