@@ -30,3 +30,6 @@ and run:
 ./build.sh
 ```
 
+# References
+
+1. https://www.codewithjason.com/dockerize-sinatra-application/
